@@ -24,64 +24,9 @@ body {
   margin-top: 5px;
   color: #797977; }
 
-.section-title {
-  font-weight: bold;
-  margin-left: 15px !important;
-  margin-right: 15px !important;
-  font-size: 1.5vw; }
+/* For mobile phones: */
+@media only screen and (min-width: 600px) {
+  /* For tablets: */ }
 
-.portfolio-card {
-  font-family: 'Poppins', sans-serif;
-  background: #FFF;
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0.12), 0 0 0 rgba(0, 0, 0, 0.24);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  margin: 1rem;
-  min-height: .125rem; }
-
-.portfolio-card-detail {
-  padding-top: 1.5rem;
-  padding-left: 1.5rem;
-  font-weight: 500;
-  color: #3c3b3c; }
-
-.portfolio-card-content {
-  padding: 1.5rem;
-  font-weight: 400;
-  color: #717171; }
-
-.card-image {
-  background: #e7e7e7;
-  object-fit: cover;
-  width: 100%;
-  height: 250px; }
-
-.portfolio-card:hover {
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
-
-.blog-post {
-  font-family: 'Roboto', sans-serif; }
-  .blog-post .blog-title {
-    font-weight: 500; }
-  .blog-post .blog-content {
-    font-weight: 400; }
-
-a {
-  color: #343433; }
-  a:hover {
-    color: #17dfa3;
-    text-decoration: none;
-    transition: 0.4s; }
-
-@media only screen and (max-width: 320px) {
-  .title {
-    font-size: 3vw;
-    line-height: 1.5rem; }
-  .detail {
-    font-size: 3vw; } }
-
-@media only screen and (max-width: 768px) {
-  .title {
-    line-height: 2rem;
-    font-size: 2.5vw; }
-  .detail {
-    font-size: 2vw; } }
+@media only screen and (min-width: 768px) {
+  /* For desktop: */ }
