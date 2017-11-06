@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+html, body {
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+body {
+  background: rgb(58,110,242);
+  background: -moz-linear-gradient(-45deg, rgba(58,110,242,1) 1%, rgba(11,46,222,1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(58,110,242,1) 1%,rgba(11,46,222,1) 100%);
+  background: linear-gradient(135deg, rgba(58,110,242,1) 1%,rgba(11,46,222,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a6ef2', endColorstr='#0b2ede',GradientType=1 );
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me {
+  font-family: 'Raleway', sans-serif;
+  color: #FFF;
+  line-height: 1.2;
+  width: 70%;
+  text-align: left;
+  font-weight: 700;
+  font-size: 4vw;
+}
+
+.regular-text {
+  display: flex;
+  margin-top: 20px;
+  /*border: 1px solid white;
+  padding: 3px 15px;*/
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #FFF;
+  font-size: 1.5vw;
+}
+
+.regular-text a {
+  color: #FFF;
+  margin-left: 15px;
+  transition: .3s ease;
+}
+
+.regular-text a:hover {
+  color: #22ec36;
+}
+
+.copyright {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #FFF;
+  position: absolute;
+  width: 100%;
+  opacity: .5;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1vw;
+  bottom: 0;
+}
+
+.ulaanbaatar {
+  text-decoration: solid line-through lime;
+}
