@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,700');
 
 html, body {
   box-sizing: border-box;
@@ -6,11 +6,11 @@ html, body {
 }
 
 body {
-  background: rgb(58,110,242);
-  background: -moz-linear-gradient(-45deg, rgba(58,110,242,1) 1%, rgba(11,46,222,1) 100%);
-  background: -webkit-linear-gradient(-45deg, rgba(58,110,242,1) 1%,rgba(11,46,222,1) 100%);
-  background: linear-gradient(135deg, rgba(58,110,242,1) 1%,rgba(11,46,222,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a6ef2', endColorstr='#0b2ede',GradientType=1 );
+  background: rgb(106,17,203);
+  background: -moz-linear-gradient(-45deg, rgba(106,17,203,1) 0%, rgba(37,117,252,1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(106,17,203,1) 0%,rgba(37,117,252,1) 100%);
+  background: linear-gradient(135deg, rgba(106,17,203,1) 0%,rgba(37,117,252,1) 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a11cb', endColorstr='#2575fc',GradientType=1 );
 }
 
 .container {
@@ -35,9 +35,9 @@ body {
   display: flex;
   margin-top: 20px;
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   color: #FFF;
-  font-size: .5em;
+  font-size: .4em;
 }
 
 .regular-text a {
@@ -52,14 +52,14 @@ body {
 
 .copyright {
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   color: #FFF;
   position: absolute;
   width: 100%;
   opacity: .5;
   text-align: center;
   margin-bottom: 15px;
-  font-size: 1em;
+  font-size: .8em;
   bottom: 0;
 }
 
