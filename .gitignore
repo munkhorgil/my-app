@@ -3,3 +3,4 @@ node_modules/
 
 # vim
 *.un~
+*.html.swp
