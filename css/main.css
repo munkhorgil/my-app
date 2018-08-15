@@ -9,7 +9,7 @@ body {
   background: rgb(106,17,203);
   background: -moz-linear-gradient(-45deg, rgba(106,17,203,1) 0%, rgba(37,117,252,1) 100%);
   background: -webkit-linear-gradient(-45deg, rgba(106,17,203,1) 0%,rgba(37,117,252,1) 100%);
-  background: linear-gradient(135deg, rgba(106,17,203,1) 0%,rgba(37,117,252,1) 100%); 
+  background: linear-gradient(135deg, rgba(106,17,203,1) 0%,rgba(37,117,252,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a11cb', endColorstr='#2575fc',GradientType=1 );
 }
 
