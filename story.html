@@ -1,0 +1,144 @@
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700|Prata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant|EB+Garamond" rel="stylesheet">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+    <script async custom-element="amp-story"
+        src="https://cdn.ampproject.org/v0/amp-story-0.1.js"></script>
+    <title>My Story</title>
+    <meta name="description" content="Get started with amp-story">
+
+    <meta name="viewport"
+          content="width=device-width,minimum-scale=1,initial-scale=1">
+    <link rel="canonical" href="grid-layer-templates.html">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+    .headline {
+      text-align: center;
+    }
+      h4 {
+        font-family: 'Playfair Display SC', serif;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        display: block;
+        font-style:normal;
+        padding-top: 0.1em;
+        text-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.2);
+      }
+      h4::before {
+        content: "§";
+        display: inline-block;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        opacity: 0.2;
+        margin: 0 0.6em;
+        font-size: 0.8em;
+      }
+      h4::after {
+        content: "§";
+        display: inline-block;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        opacity: 0.2;
+        margin: 0 0.6em;
+        font-size: 0.8em;
+      }
+      p {
+        font-family: 'Cormorant', serif;
+      }
+      amp-story-page {
+        background: white;
+      }
+      .content {
+        background: #f2f2f2;
+        border: solid #ccc;
+        width: 100%;
+        height: 100%;
+        padding: 8px;
+      }
+      em {
+        font-family: 'Cormorant', serif;
+      }
+      </style>
+  </head>
+
+  <body>
+    <amp-story standalone>
+
+      <amp-story-page id="cover">
+        <amp-story-grid-layer template="vertical">
+          <div class="headline">
+            <em>Tell Me Your Stories</em>
+            <h4>Галт тэргэнд</h4>
+            <em>1-р хэсэг</em>
+          </div>
+          <p>Унтаж байгаа хүний зураг авах муу гэдэг л юм. Гэхдээ хүн унтаж байх үедээ хамгийн тайван, амар амгалан харагддаг шүү дээ. Энэ эгч маань надаас нилээн л юм асуулаа. Өөрөөс нь хүүхдийнх нь талаар асуухад нүдэнд нь оч гэрэлтээд, их л баяртай хүүгийнхээ талаар ярьсан юм. Одоо хүү рүүгээ бүхэл бүтэн 24 цагийн суугаа вагонд суугаад явж байгаа нь эх хүн гэгч ямар агуу вэ л гэж бодоход хүргэх юм даа. Нөхөр нь яасан юм бол доо? Хань ижил нь байхгүй ганцаархнаа холын замд яваа түүн шиг хүмүүс хорвоо дэлхий дээр хэр их бол?</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="second">
+        <amp-story-grid-layer template="vertical">
+          <div class="headline">
+            <em>Tell Me Your Stories</em>
+            <h4>Кофены мухлаг</h4>
+            <em>2-р хэсэг</em>
+          </div>
+          <p>Эмнэлэгт байх энэ кофены мухлагийн эгч юу боддог бол? Өвчиндөө шаналсан, яах бол гэсэн хүлээлтэн дор байдаг ар гэрийнхнийг нь хараад ажлаа бодож чаддаг болов уу? Энд хүмүүс кофе ууж таашаал авна гэж орохоосоо илүү элдэв бодлоо түр зуур мартахын тулд эсвэл шөнөжин унтаагүй нойроо сэргээх гэж л орж ирдэг нь илүүц бизээ. Тэдгээр хүмүүст зориулж халуун дотно, эерэг сэтгэгдэл төрүүлэх тухтай орчин, итгэл бэлэглэх инээмсэглэл байвал 2 талдаа өгөөжтэй баймаар... Дуу цөөтэй эгчид бас ийм хүндхэн өдрүүд тохиолдож байсан болохоор энэ мухлагийг нээсэн юм болов уу?</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="third">
+        <amp-story-grid-layer template="vertical">
+          <div class="headline">
+            <em>Tell Me Your Stories</em>
+            <h4>10 минут</h4>
+            <em>3-р хэсэг</em>
+          </div>
+          <p>10 минут хажууд нь сууж үгийг нь сонсоход ажилдаа дуртай ч, сонирхол хоббигоо олоогүй хачин гунигтай ах шиг санагдав. Хөлсний эхүүн үнэр, нарны шууд тусах тусгалд өөдөөс инээмсэглэх нь яриандаа дэмжлэг хүсч буй гэнэн хүүхэд шиг ч юм шиг... Тосолсон гутал нь нилээн тоос дарсныг ажваас их л холоос зорин ажлаа бүтээх хүсэл тэмүүлэлтэй ирсэн бололтой. Ямар ч хүн ажлаа бүтээх сонирхолтой байлгүй яахавдэээ, дэмий юм биччихлээ. Хөхөлбөр туяа татсан нүд, өмдөө давсан гэдэс 2 нь байнга сууж байдагтай холбоотой бизээ. Багын мөрөөдөл нь энэ ажил нь яг мөн байсан болов уу? Магадгүй жазз бүжигчин ч байх байсан юм билүү?</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="fourth">
+        <amp-story-grid-layer template="vertical">
+          <div class="headline">
+            <em>Tell Me Your Stories</em>
+            <h4>50 гарч яваа ах</h4>
+            <em>4-р хэсэг</em>
+          </div>
+          <p>Яг миний баруун талд сууж байсан ахын яриаг сонсоод бодсоноо бичмээр санагдлаа. Цэвэрхэн саарал аяллын куртик, чанга дарж оёсон хилэн бор өмд, зөөврийн компьютерийн 2 том халаастай цүнх үүрсэн 50 гарч яваа бололтой ахын хажууд суух боломж таарав. Утасны цаана залуухан, англи хэлний мэдлэг тааруудуу залуу усны насосын талаар асуугаад бололтой, ах түүнд drain, rinse нтр угаалгын машин дээр жишээ аван их л удаан нухацтай тайлбарлаж өгнө. Хэрвээ энэ ах бидний үед төрсөн бол яалтачгүй амжилттай байх хүний нэг байх байсан даа гэж бодогдов. Утсаар удаан ярьж дууссаны дараа энэ хүүхэд яана даа, хичээвэл ууг нь болно доо гэсэн янзтай санаа алдсан юмдаа. (Эсвэл би толгойдоо тэгж ургуулж бодсон байх) Нүдний шилээ хичээнгүйлэн арчаад саванд нь буцааж хийх, гарын хумсаа авсан нь, биеэ авч явах байдал нь нилээн нямбай хүн гэх сэтгэгдлийг төрүүлэв. Хажуудаа байгаа хүний зургийг авах боломж болдоггүй болохоор өвдөгийг нь л орууллаа.</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="fifth">
+        <amp-story-grid-layer template="vertical">
+          <div class="headline">
+            <em>Tell Me Your Stories</em>
+            <h4>Өвөл</h4>
+            <em>5-р хэсэг</em>
+          </div>
+          <p>Өвлийн хүйтнээр хөгшчүүл маань зузаан малгай өмсдөггүй харагдах нь элбэг болохоор даардаггүй, тэр байтугай бүр мэдээ нь хөгшрөх тусам алдчихдаг юм болов уу гэж багаасаа л бодсоор байна. Энэ хүн маань их л яаруу, торонд нь амттай идэх юм бага зэрэг байсныг харахад баяр тэмдэглэхээр явж байгаа юу гэлтэй. Өөрт нь зохисон күүл шилтэй энэ өвөө залуудаа гайхамшигтай нэг зүйлтэй учирчихаад даанч алдчихсан юм шиг хачин гунигтай нүдтэй хажуугаар минь харц буруулаад явсан даа.</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="sixth">
+        <amp-story-grid-layer template="vertical">
+          <div class="headline">
+            <em>Tell Me Your Stories</em>
+            <h4>Хөрслөг бор царай</h4>
+            <em>6-р хэсэг</em>
+          </div>
+          <p>Шалгалт өгч байхдаа юу боддог бол? Байнга л инээмсэглэдэг тэр шалгалтан дээрээ хүртэл инээмсэглэх нь амьдралын хором, мөч бүрийг аз жаргалаар мэдэрч байгаа юм болов уу? Гэж бодогдох. Эсвэл зүгээр л дадчихсан нүүрний хувирал юм болов уу? Хөрслөг бор царайнд нь шалгалтандаа түүртэж байгаа ул мөр нэг ч үгүй, гэхдээ эрүүгээ тулаад бодох нь мэдэхгүй байгаа ч юм шиг...Би хичнээн сайн бэлдсэн ч шалгалтын өмнөх орой заавал хичээлээ харж өөрийгөө ядраадаг байсан шиг тийм ул мөр харагдахгүй байсан шиг.</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+    </amp-story>
+  </body>
+</html>
