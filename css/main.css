@@ -1,68 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,700');
-
-html, body {
-  box-sizing: border-box;
-  height: 100vh;
-}
-
 body {
-  background: rgb(106,17,203);
-  background: -moz-linear-gradient(-45deg, rgba(106,17,203,1) 0%, rgba(37,117,252,1) 100%);
-  background: -webkit-linear-gradient(-45deg, rgba(106,17,203,1) 0%,rgba(37,117,252,1) 100%);
-  background: linear-gradient(135deg, rgba(106,17,203,1) 0%,rgba(37,117,252,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a11cb', endColorstr='#2575fc',GradientType=1 );
-}
-
-.container {
-  display: flex;
-  height: 100vh;
-  text-align: left;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-me {
-  font-family: 'Raleway', sans-serif;
-  color: #FFF;
-  line-height: 1.2;
-  width: 70%;
-  text-align: left;
-  font-weight: 700;
-  font-size: 3em;
-}
-
-.regular-text {
-  display: flex;
-  margin-top: 20px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200;
-  color: #FFF;
-  font-size: .4em;
-}
-
-.regular-text a {
-  color: #FFF;
-  margin-left: 15px;
-  transition: .3s ease;
-}
-
-.regular-text a:hover {
-  color: #22ec36;
-}
-
-.copyright {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200;
-  color: #FFF;
-  position: absolute;
-  width: 100%;
-  opacity: .5;
+  color: white;
+  margin: 0;
   text-align: center;
-  margin-bottom: 15px;
-  font-size: .8em;
-  bottom: 0;
+  background-color: black;
 }
-
-.ulaanbaatar {
-  text-decoration: solid line-through lime;
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.text {
+  font-size: 25px;
+}
+.text a {
+  margin-left: 15px;
+}
+.header {
+  top: 45%;
+}
+.footer {
+  bottom:3%;
+}
+.description {
+  color: gray;
+  padding-top: 50px;
+}
+a, a:hover, a:visited {
+  color: white;
+  text-decoration: none;
+} 
+.disable-selection {
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer */
+   -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
+#footer {
+  position: absolute;
+  margin: 15px;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
