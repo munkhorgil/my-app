@@ -8,30 +8,64 @@
     <meta property="og:title"         content="Munkh-Orgil | Portfolio & Blog" />
     <meta property="og:description"   content="Blogger, Photographer, Coder, Adventure seeker" />
     <meta property="og:image"         content="http://munkhorgil.com/logo.jpg" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700|Prata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cormorant|EB+Garamond" rel="stylesheet">
 
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <meta name="description" content="Get started with amp-story">
 
-    <meta name="viewport"
-          content="width=device-width,minimum-scale=1,initial-scale=1">
     <link rel="canonical" href="grid-layer-templates.html">
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
     <style amp-custom>
+      amp-story-page {
+        background: transparent;
+      }
+      body {
+        font-family: 'PlayFair Display', cursive;
+      }
+      .container {
+        position: relative;
+        height: 100vh;
+      }
+      .img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-size: cover;
+      }
+      .text-container {
+        position: absolute;
+        text-align: center;
+        line-height: 20px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        font-size: 2em;
+      }
     </style>
   </head>
 
   <body>
     <amp-story standalone>
       <amp-story-page id="cover">
-        <amp-story-grid-layer template="vertical">
-          <amp-img src="https://images.unsplash.com/photo-1534213948876-c3ef562c5003?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0ebf9d578a8da8a4e9cac5196602bf4b&auto=format&fit=crop&w=634&q=80" width="100%" height="100%" layout="responsive">
-          </amp-img>
-        </amp-story-grid-layer>
+        <div class="container">
+          <amp-img layout="responsive" height="0" width="0" src="./flower.jpg" alt="flower" class="img">
+            <div class="text-container">
+              <h1>Centaury</h1>
+            </div>
+        </div>
       </amp-story-page>
-    </amp-story>
+
+      <amp-story-page id="first">
+        <div class="container">
+          Hello World
+        </div>
+      </amp-story-page>
   </body>
 </html>
