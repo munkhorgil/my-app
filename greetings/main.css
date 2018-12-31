@@ -160,3 +160,11 @@
     font-family: 'Black And White Picture', sans-serif;
     color: white;
   }
+
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 568px) {
+    .caption, .caption--small {
+      font-size: 1.5rem;
+    }
+  }
