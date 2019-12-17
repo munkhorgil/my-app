@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #032179;
+}
+
+.wrapper {
+  margin: 0 8rem;
+}
+
+header {
+  margin-top: 2rem;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  color: white;
+  font-size: 2rem;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-self: center;
+}
+
+.about {
+  color: white;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.contact {
+  color: white;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 3rem;
+}
+
+.social {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.social a {
+  margin-right: 15px;
+}
+
+a {
+  color: white
+}
+
+i {
+  color: white;
+}
