@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Comments from "./Comments";
 import Header from "./Header";
 import { getComments, validURL } from "./util";
+import Sounds from "./Sounds";
 
 function App() {
   const [comments, setComments] = useState([]);
@@ -50,10 +51,10 @@ function App() {
         onType={handleType}
         onSubmit={handleSubmit}
       />
-      <div className="contact">
-        <small>Get in touch: info@latenightvibes.club</small>
+      <Sounds />
+      <div className="tabWrapper">
+        <Comments loading={loading} items={comments} />
       </div>
-      <Comments loading={loading} items={comments} />
     </section>
   );
 }

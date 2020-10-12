@@ -3,6 +3,10 @@ import axios from 'axios';
 const URL = 'https://www.googleapis.com/youtube/v3/commentThreads';
 const API_KEY = 'AIzaSyAsyThfvOStT7v4WNZSEvKW854N03qr6KM'
 
+const sort = (a, b) => {
+  return a.likeCount < b.likeCount ? 1 : a.likeCount > b.likeCount ? -1 : 0;
+};
+
 /**
  * Get comments of given videoId
  * @param {String} videoId
@@ -25,11 +29,12 @@ export const getComments = async (videoId) => {
       createdAt: snippet.publishedAt,
       avatar: snippet.authorProfileImageUrl,
       name: snippet.authorDisplayName,
-      comment: snippet.textOriginal
+      comment: snippet.textOriginal,
+      likeCount: snippet.likeCount
     });
   }
 
-  return comments
+  return comments.sort(sort);
 };
 
 /**

@@ -53,15 +53,11 @@ cite {
   font-style: italic;
 }
 
-.control {
-  display: inline;
-}
-
 input {
   background: #E7E2D9;
   border: none;
   border-bottom: 1px solid gray;
-  width: 80%;
+  width: 100%;
   height: 20px;
   padding: 12px 0;
   font-family: 'Average', Georgia, 'Times New Roman', serif;
@@ -75,7 +71,7 @@ input:focus {
 button {
   font-family: 'Average', Georgia, 'Times New Roman', serif;
   font-size: 1em;
-  background: gray;
+  background: #D0CDCD;
   border: none;
   padding: 12px;
   border-radius: 12px;
@@ -83,6 +79,53 @@ button {
   margin-top: 12px;;
 }
 
-.contact {
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin: 1em 0;
+}
+
+.button {
+  cursor: pointer;
+  padding: 1em 1.5em;
+  background: #6c757d;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.button-active {
+  cursor: pointer;
+  padding: 1em 1.5em;
+  background: #484F54;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.button:hover {
+  background-color: #484F54;
+}
+
+.button-active:hover {
+  background-color: #484F54;
+}
+
+.icon-active {
+  width: 36px;
+  height: 36px;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.slider {
+  margin: 0.5em 0;
 }

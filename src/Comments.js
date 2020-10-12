@@ -17,8 +17,8 @@ export default function Comments({ loading, items = [] }) {
     return null;
   }
 
-  const renderItem = (item) => (
-    <div className="content">
+  const renderItem = (item, idx) => (
+    <div key={idx} className="content">
       <small>{new Date(item.createdAt).toDateString()}</small>
       <p>{item.comment}</p>
       <cite>~{item.name}</cite>
