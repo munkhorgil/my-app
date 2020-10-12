@@ -1,13 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Average|Alex+Brush|Abril+Fatface);
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #E7E2D9;
+  color: #454546;
+  font-family: 'Average', Georgia, 'Times New Roman', serif;
+  font-size: 1.20em;
+  line-height: 1.30em;
+  text-rendering: optimizeLegibility;
+  text-shadow: 1px 1px 1px rgba(255,255,255, 0.7);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  color: #9B5A4F;
+  font-family: 'Abril Fatface', Georgia, 'Times New Roman', serif;
+  font-size: 3.0em;
+  line-height: .85em;  
+  margin: .5em 0;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  margin: 2em auto;
+  max-width: 525px;
+  width: 80%;
+}
+
+.content {
+  border-left: 2px dotted #A3A0A1;
+	padding-left: 1em;
+	margin-bottom: 3em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+p:first-child:first-letter {
+  font-family: 'Alex Brush', cursive;
+	font-size: 2.5em;
+  float: left; 
+  margin: 0% 1% 0 0; 
+}
+
+p:first-child {
+  font-size: 1.25em;
+  line-height: 1.35em;
+}
+
+cite {
+  margin-left: 30%;
+  font-size: .8em;
+  font-style: italic;
+}
+
+.control {
+  display: inline;
+}
+
+input {
+  background: #E7E2D9;
+  border: none;
+  border-bottom: 1px solid gray;
+  width: 80%;
+  height: 20px;
+  padding: 12px 0;
+  font-family: 'Average', Georgia, 'Times New Roman', serif;
+  font-size: 1em;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  font-family: 'Average', Georgia, 'Times New Roman', serif;
+  font-size: 1em;
+  background: gray;
+  border: none;
+  padding: 12px;
+  border-radius: 12px;
+  color: white;
+  margin-top: 12px;;
+}
+
+.contact {
+  margin: 1em 0;
 }
